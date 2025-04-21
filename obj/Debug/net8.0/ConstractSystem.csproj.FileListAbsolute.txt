@@ -1,0 +1,14 @@
+C:\Users\coled\OneDrive\School\MIS_221\ConstractSystem\obj\Debug\net8.0\ConstractSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\coled\OneDrive\School\MIS_221\ConstractSystem\obj\Debug\net8.0\ConstractSystem.AssemblyInfoInputs.cache
+C:\Users\coled\OneDrive\School\MIS_221\ConstractSystem\obj\Debug\net8.0\ConstractSystem.AssemblyInfo.cs
+C:\Users\coled\OneDrive\School\MIS_221\ConstractSystem\obj\Debug\net8.0\ConstractSystem.csproj.CoreCompileInputs.cache
+C:\Users\coled\OneDrive\School\MIS_221\ConstractSystem\bin\Debug\net8.0\ConstractSystem.exe
+C:\Users\coled\OneDrive\School\MIS_221\ConstractSystem\bin\Debug\net8.0\ConstractSystem.deps.json
+C:\Users\coled\OneDrive\School\MIS_221\ConstractSystem\bin\Debug\net8.0\ConstractSystem.runtimeconfig.json
+C:\Users\coled\OneDrive\School\MIS_221\ConstractSystem\bin\Debug\net8.0\ConstractSystem.dll
+C:\Users\coled\OneDrive\School\MIS_221\ConstractSystem\bin\Debug\net8.0\ConstractSystem.pdb
+C:\Users\coled\OneDrive\School\MIS_221\ConstractSystem\obj\Debug\net8.0\ConstractSystem.dll
+C:\Users\coled\OneDrive\School\MIS_221\ConstractSystem\obj\Debug\net8.0\refint\ConstractSystem.dll
+C:\Users\coled\OneDrive\School\MIS_221\ConstractSystem\obj\Debug\net8.0\ConstractSystem.pdb
+C:\Users\coled\OneDrive\School\MIS_221\ConstractSystem\obj\Debug\net8.0\ConstractSystem.genruntimeconfig.cache
+C:\Users\coled\OneDrive\School\MIS_221\ConstractSystem\obj\Debug\net8.0\ref\ConstractSystem.dll
