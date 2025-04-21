@@ -4,15 +4,14 @@ using System.Formats.Asn1;
 MainMenu();
 
 static void MainMenu() {
-    string value = "1";
-    while (value != null) {
-        Console.Clear();
-        Console.WriteLine("Welcome to the NFL Player Contract Predictor!");
-        Console.WriteLine("Where do you want to go?");
-        Console.WriteLine("1 = Stats, 2 = Salary, 3 = Contract Prediction, or 4 = Exit.");
-        
-        string choice = Console.ReadLine();
+    Console.Clear();
+    Console.WriteLine("Welcome to the NFL Player Contract Predictor!");
+    Console.WriteLine("Where do you want to go?");
+    Console.WriteLine("1 = Stats, 2 = Salary, 3 = Contract Prediction, or 4 = Exit.");
+    string choice = Console.ReadLine();
 
+    while (choice != "4") {
+        
         if (choice == "1") {
             Stats();
         }
@@ -23,7 +22,6 @@ static void MainMenu() {
             Predictions();
         }
         else if (choice == "4") {
-            value = null;
         }
         else {
             Console.WriteLine("Invalid Input. Try Again.");
@@ -474,7 +472,7 @@ static void QuarterBacks(){
         quarterBackValue += 0.5;
     }
     System.Console.WriteLine("Please enter this Quarterbacks completion percentage from 3 years ago:");
-    int completionPercentage3 = int.Parse(Console.ReadLine());
+    double completionPercentage3 = double.Parse(Console.ReadLine());
     if(completionPercentage3 >= 90){
         quarterBackValue += 10;
     }
@@ -495,7 +493,7 @@ static void QuarterBacks(){
         quarterBackValue += 1;
     }
     System.Console.WriteLine("Please enter this Quarterbacks completion percentage from 2 years ago:");
-    int completionPercentage2 = int.Parse(Console.ReadLine());
+    double completionPercentage2 = double.Parse(Console.ReadLine());
     if(completionPercentage2 >= 90){
         quarterBackValue += 10;
     }
@@ -516,7 +514,7 @@ static void QuarterBacks(){
         quarterBackValue += 1;
     }
     System.Console.WriteLine("Please enter this Quarterbacks completion percentage from this past year:");
-    int completionPercentage1 = int.Parse(Console.ReadLine());
+    double completionPercentage1 = double.Parse(Console.ReadLine());
     if(completionPercentage1 >= 90){
         quarterBackValue += 10;
     }
